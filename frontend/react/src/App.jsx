@@ -6,7 +6,7 @@ function App() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [message, setMessage] = useState('');
-  const API = "http://localhost:5000/api/auth";
+  const API = "https://authnexus-duus.onrender.com/api/auth";
 
   const registerUser = async () => {
     try {
